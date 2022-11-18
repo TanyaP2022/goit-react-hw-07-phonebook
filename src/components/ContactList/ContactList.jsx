@@ -22,7 +22,9 @@ export const ContactList = () =>{
       </ContactButton>
       </ContactItemStyle>
     })
-    return (
-      <ContactListStyle>{elements}</ContactListStyle>
+  return (
+    <ContactListStyle>
+      { elements }
+    </ContactListStyle>
     )
 }
